@@ -194,20 +194,6 @@ To delete your workspace:
 2. Click **Delete resource group**, type the resource group name to confirm you want to delete it, and select **Delete**.
 
 
-**se ve bien, pero NO sale el botón Copy.**
-
-👉 **Conclusión:** GitHub Pages **NO tiene botón Copy integrado**, ni aunque uses Markdown.
-
-Pero **sí puedes mostrarlo** agregando un **script muy pequeño**.  
-Te doy el más simple y listo para pegar.
-
----
-
-# ✅ SOLUCIÓN MÁS FÁCIL PARA TENER COPY EN GITHUB PAGES
-
-### 1️⃣ Agrega este script al final de tu `.md` (sí funciona en Markdown en GitHub Pages)
-Solo pega esto al FINAL de tu archivo `.md`:
-
 ```html
 <script>
 document.addEventListener("DOMContentLoaded", () => {
