@@ -193,8 +193,6 @@ To delete your workspace:
 1. In the [Azure portal](https://portal.azure.com), in the **Resource groups** page, open the resource group you specified when creating your Azure Machine Learning workspace.
 2. Click **Delete resource group**, type the resource group name to confirm you want to delete it, and select **Delete**.
 
-
-```html
 <script>
 document.addEventListener("DOMContentLoaded", () => {
   document.querySelectorAll("pre > code").forEach((block) => {
