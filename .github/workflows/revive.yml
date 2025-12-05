@@ -1,0 +1,10 @@
+name: revive
+on:
+  push:
+    branches: ["main"]
+
+jobs:
+  revive:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "GitHub Actions revived"
